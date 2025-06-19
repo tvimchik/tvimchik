@@ -106,9 +106,27 @@ body {
 /* Адаптация под телефон */
 @media (max-width: 480px) {
   body {
-    padding-top: 40px;
-    align-items: flex-start;
-  }
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  font-family: Arial, sans-serif;
+  color: #f0f0f0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 60px;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
   .avatar-video {
     width: 110px;
@@ -120,9 +138,12 @@ body {
   }
 
   .social-block {
-    width: 100%;
-    max-width: 320px;
-    padding: 16px 20px;
+  background: #1e1e1e;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 280px;
+  max-width: 90vw;
   }
 
   .social-title {

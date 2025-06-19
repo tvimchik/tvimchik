@@ -104,7 +104,7 @@ body {
 }
 
 /* Адаптация под телефон */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   body {
   margin: 0;
   padding: 0;
@@ -157,4 +157,4 @@ body {
   .social-item i {
     font-size: 20px;
   }
-}
+} */

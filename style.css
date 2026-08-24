@@ -87,7 +87,7 @@ body {
     0 0 35px rgba(255, 112, 191, 0.08);
 }
 
-.avatar-video {
+.avatar-jpeg {
   display: block;
 
   width: 100%;
@@ -97,7 +97,7 @@ body {
 
   object-fit: cover;
 
-  background: #111318;
+  background: #111;
 }
 
 

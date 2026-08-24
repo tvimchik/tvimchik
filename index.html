@@ -2,49 +2,110 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>tvimchik</title>
-   <link rel="icon" href="icon/title.png" type="image/png" />
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
-    
-  <div class="container">
-    <!-- Аватарка -->
-    <video class="avatar-video" autoplay muted playsinline loop>
-      <source src="icon/avatar.mp4" type="video/mp4">
-    </video>
 
-    <!-- Имя под аватаркой -->
+  <meta
+    name="viewport"
+    content="width=device-width,
+             initial-scale=1.0,
+             maximum-scale=1.0,
+             user-scalable=no,
+             viewport-fit=cover"
+  >
+
+  <title>tvimchik</title>
+
+  <link rel="icon" href="icon/title.png" type="image/png">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- Аватар -->
+    <div class="avatar-wrapper">
+      <video
+        class="avatar-video"
+        autoplay
+        muted
+        playsinline
+        loop
+      >
+        <source src="icon/avatar.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Имя -->
     <h1 class="name">tvimchik</h1>
 
-    <!-- Блок ссылок -->
-    <div class="social-block">
-         <h2 class="social-title">- - - - - - My social - - - - - -</h2>
-        <div class="social-item">
-            <i class="fab fa-instagram"></i>
-            <a href="https://instagram.com/tvimchikk" target="_blank">Instagram</a>
-        </div>
-        <div class="social-item">
-            <i class="fab fa-telegram-plane"></i>
-            <a href="https://t.me/tvimchikkk" target="_blank">Telegram</a>
-        </div>
-        <div class="social-item">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/tvimchik?tab=repositories" target="_blank">Github</a>
-        </div>
-   <!--   <div class="social-item">
-         <svg class="social-icon">
-        <path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/>
-        </svg>
-        <a href="https://music.yandex.ru/playlists/lk.b46681cb-e571-44b9-bc31-466c89b9ef1e?utm_source=desktop&utm_medium=copy_link">Яндекс Музыка</a>
-      </div> -->
-    </div
-  </div>
+    <!-- Социальные сети -->
+    <section class="social-block">
+
+      <h2 class="social-title">
+        <span>—</span>
+        My social
+        <span>—</span>
+      </h2>
+
+      <a
+        class="social-item"
+        href="https://instagram.com/tvimchikk"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </span>
+
+        <span class="social-text">Instagram</span>
+
+        <i class="fas fa-arrow-up-right-from-square open-icon"></i>
+      </a>
+
+      <a
+        class="social-item"
+        href="https://t.me/tvimchikkk"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="social-icon">
+          <i class="fab fa-telegram-plane"></i>
+        </span>
+
+        <span class="social-text">Telegram</span>
+
+        <i class="fas fa-arrow-up-right-from-square open-icon"></i>
+      </a>
+
+      <a
+        class="social-item"
+        href="https://github.com/tvimchik?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="social-icon">
+          <i class="fab fa-github"></i>
+        </span>
+
+        <span class="social-text">Github</span>
+
+        <i class="fas fa-arrow-up-right-from-square open-icon"></i>
+      </a>
+
+    </section>
+
+    <div class="footer">
+      <span>© 2026</span>
+      <span>tvimchik</span>
+    </div>
+
+  </main>
+
 </body>
 </html>
-
-
-
-
